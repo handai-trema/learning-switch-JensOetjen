@@ -30,7 +30,7 @@ After the simulation was over, I stopped cbench in the first terminal with ctrl+
 
 The resulting output-file can be found at:
 
-[Output-File](https://github.com/JensOetjen/handai-trema-learning-switch-JensOetjen/blob/master/output_of_ruby_prof_.txt)
+[Output-File](https://github.com/handai-trema/learning-switch-JensOetjen/blob/master/output_of_ruby_prof_.txt)
 
 ## 3 Explanation ##
 
