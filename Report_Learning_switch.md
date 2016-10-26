@@ -43,8 +43,9 @@ def aged_out?
   ```ruby
 def age
     @db.delete_if { |_mac, entry| entry.aged_out? }
-  end
-    ```
+ end
+ ```
+
 ## 3 Initializition ##
 
 The function "start" initializes the switch by creating a hashtable:
@@ -55,6 +56,8 @@ The function "start" initializes the switch by creating a hashtable:
 
 The hash table is populated with an instance of the former explained database in the "switch_ready"-function:
 
+
+## 4 Functions ##
 
 ```ruby
 @fdbs[datapath_id] = FDB.new
